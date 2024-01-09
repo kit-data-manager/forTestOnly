@@ -22,7 +22,6 @@ env:
 
 jobs:
   # Push image to GitHub Packages.
-  # See also https://docs.docker.com/docker-hub/builds/
   push:
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
@@ -48,5 +47,5 @@ jobs:
           [ "$VERSION" == "main" ] && VERSION=latest
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
-          docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
+          docker tag $DOCKER_IMAGE $IMAGE_ID:$VERSION
           docker push $IMAGE_ID:$VERSION
