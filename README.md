@@ -9,7 +9,7 @@
 
 ### `label` parameter
 
-- `label=hello`: ![label=hello](https://ghcr-badge.egpl.dev/eggplants/ghcr-badge/tags?trim=major&label=hello)
+- `label=hello`: ![label=hello](https://ghcr-badge.egpl.dev/VolkerHartmann/testPackaging/tags?trim=major&label=hello)
 
 ### `ignore` parameter
 
@@ -37,10 +37,10 @@ To update immediately, send PURGE request to the badge Camo link.
 curl -X PURGE "https://camo.githubusercontent.com/..."
 ```
 
-[1]: <https://ghcr-badge.egpl.dev/eggplants/ghcr-badge/tags?trim=major>
-[2]: <https://ghcr-badge.egpl.dev/eggplants/ghcr-badge/latest_tag?trim=major&label=latest>
+[1]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/tags?trim=major>
+[2]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/latest_tag?trim=major&label=latest>
 [3]: <https://ghcr-badge.egpl.dev/ptr727/plexcleaner/develop_tag>
-[4]: <https://ghcr-badge.egpl.dev/eggplants/ghcr-badge/size>
+[4]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/size>
 
 ## Development
 
