@@ -32,7 +32,8 @@ jobs:
 
       - name: Build image
         run: |
-           docker build . --file Dockerfile --tag $IMAGE_NAME
+           DOCKER_IMAGE=$(echo $IMAGE_NAME | tr '[A-Z]' '[a-z]')
+           docker build . --file Dockerfile --tag $DOCKER_IMAGE
 
       - name: Push image
         run: |
