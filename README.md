@@ -1,7 +1,9 @@
 # testPackaging
 # ghcr-badge: Generate ghcr.io container's status badge
 
-[![1] ![2] ![4]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/testpackaging)
+![1](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
+![2](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
+![4](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
 
 
 
