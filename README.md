@@ -37,8 +37,8 @@ To update immediately, send PURGE request to the badge Camo link.
 curl -X PURGE "https://camo.githubusercontent.com/..."
 ```
 
-[1]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/tags?trim=major&color=steelblue&label=docker&ignore=main,latest>
-[2]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/latest_tag?trim=major&label=version&color=steelblue>
+[1]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/tags?trim=major&color=steelblue&label=docker versions&ignore=main,latest>
+[2]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/latest_tag?trim=major&label=current version&color=steelblue>
 [3]: <https://ghcr-badge.egpl.dev/ptr727/plexcleaner/develop_tag>
 [4]: <https://ghcr-badge.egpl.dev/volkerhartmann/testpackaging/size?color=steelblue&label=docker size>
 
