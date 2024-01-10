@@ -1,51 +1,11 @@
-# testPackaging
-# ghcr-badge: Generate ghcr.io container's status badge
+# forTestOnly
+# ghcr-badges
 
 [![docker]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
 [![currentVersion]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
 [![size]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
 
 
-
-## Available paths
-
-### `label` parameter
-
-- `label=hello`: ![label=hello](https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/tags?trim=major&label=hello)
-
-### `ignore` parameter
-
-Use the ignore parameter to filter returned tags, supports pattern matching and a comma separated list.
-
-- `ignore=latest` ignores the `latest` tag (default).
-- `ignore=sha256*` ignores all tags prefixed with `sha256`.
-- `ignore=v0.0.1,latest,sha256*` ignores the `latest` and `v0.0.1` tags, and all tags prefixed with `sha256*`.
-
-### `trim` parameter
-
-- `trim=patch` trims `^v?\d+\.\d+\.\d+[^.]*$` tags.
-- `trim=major` trims `^v?\d+\.\d+[^.]*$` tags.
-
-### `color` parameter
-
-Available color names and hex codes are listed on [here](https://github.com/jongracecox/anybadge#colors).
-
-## Note
-
-Generated badge will be cached for 3666 seconds in GitHub's [Camo](https://github.com/atmos/camo) server.
-To update immediately, send PURGE request to the badge Camo link.
-
-```bash
-curl -X PURGE "https://camo.githubusercontent.com/..."
-```
-
-[docker]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/tags?trim=major&color=steelblue&label=docker versions&ignore=main,latest>
-[currentVersion]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/latest_tag?trim=major&label=current version&color=steelblue>
-[3]: <https://ghcr-badge.egpl.dev/ptr727/plexcleaner/develop_tag>
-[size]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/size?color=steelblue&label=docker size>
-
-## Development
-
-1. Install [`poetry`](https://python-poetry.org/docs/#installation)
-1. Run `poetry install && poetry shell && pre-commit install`
-1. Launch live server with `task dev`Badges:
+[docker]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/tags?trim=major&color=steelblue&ignore=main,latest&label=docker versions>
+[currentVersion]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/latest_tag?trim=major&color=steelblue&label=current version>
+[size]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/size?color=steelblue&label=size>
