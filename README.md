@@ -14,3 +14,6 @@ For pulling latest image please use:
 ```
 $> docker pull ghcr.io/kit-data-manager/fortestonly:latest
 ```
+# Links
+For more information about publishing images to GitHub Packages see:
+- https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-github-packages
