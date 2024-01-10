@@ -1,9 +1,9 @@
 # testPackaging
 # ghcr-badge: Generate ghcr.io container's status badge
 
-![1](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
-![2](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
-![4](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
+[![docker]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
+[![currentVersion]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
+[![size]](https://github.com/kit-data-manager/forTestOnly/pkgs/container/fortestonly)
 
 
 
@@ -39,10 +39,10 @@ To update immediately, send PURGE request to the badge Camo link.
 curl -X PURGE "https://camo.githubusercontent.com/..."
 ```
 
-[1]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/tags?trim=major&color=steelblue&label=docker versions&ignore=main,latest>
-[2]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/latest_tag?trim=major&label=current version&color=steelblue>
+[docker]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/tags?trim=major&color=steelblue&label=docker versions&ignore=main,latest>
+[currentVersion]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/latest_tag?trim=major&label=current version&color=steelblue>
 [3]: <https://ghcr-badge.egpl.dev/ptr727/plexcleaner/develop_tag>
-[4]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/size?color=steelblue&label=docker size>
+[size]: <https://ghcr-badge.egpl.dev/kit-data-manager/fortestonly/size?color=steelblue&label=docker size>
 
 ## Development
 
