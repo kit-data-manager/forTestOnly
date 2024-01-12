@@ -56,7 +56,7 @@ and a unique string at the beginning.
 > nano YOUR_FILE
 > git add YOUR_FILE
 > git commit -m "Fix ...."
-> git push
+> git push --set-upstream origin Version_1
 # After that tag the new version in the same way as before
 > git tag Version_1-v1.5.7
 > git push --tags
