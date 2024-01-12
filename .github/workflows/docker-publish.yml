@@ -21,7 +21,9 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
-# Only one job for creating and pushing Docker image
+# Two jobs for creating and pushing Docker image
+# - build-and-push-image -> triggered by commits on main and tagging with semantic version (e.g.: v1.2.3)
+# - build-and-push-image-of-branch -> triggered by tags matching '*-v*' (e.g.: Version_1-v1.2.3)
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
