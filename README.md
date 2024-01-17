@@ -63,7 +63,7 @@ and a unique string at the beginning.
 ```
 After a few minutes there should be a version in the package available called:
 ```
-YOUR_REPO-version_1:version_1-v1.5.7 (always available via 'latest' tag)
+YOUR_REPO-version_1:version_1-v1.5.7 (also available via 'latest' tag)
 ```
  
 # FAQ
